@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// controller to show and search for locations
 final class RMLocationViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -14,6 +15,5 @@ final class RMLocationViewController: UIViewController {
         view.backgroundColor = .systemBackground
         title = "Locations"
 
-        // Do any additional setup after loading the view.
     }
 }
